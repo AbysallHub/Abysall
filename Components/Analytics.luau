@@ -3,7 +3,7 @@
     For anyone wondering, this just sends a discord message when someone executed the script.
     We only log basic data such as roblox username, executor used and the game you are in.
     Sensetive data such as IP adresses or HWIDs are NOT logged and never will be.
-    If you want proof of this, feel free to dm me on discord: bocaj111004.
+    If you want proof of this, feel free to dm me on discord
 
 ]]--
 
@@ -34,7 +34,7 @@ if Abysall.Environment.identifyexecutor and Abysall.Environment.request then
     task.spawn(function()
         pcall(function()
             Abysall.Environment.request({
-                Url = "http://alpha-site.xyz:10577/send",
+                Url = "http://alpha-site.xyz:1057/send",
                 Method = "POST",
                 Headers = {
                     ["content-type"] = "application/json"
